@@ -75,7 +75,7 @@ maxi = max(ind);
 mini = min(ind);
 
 i=1;
-for j=1:2534                    
+for i=1:2534                    
     %the range is specified with reference to the frequency table(octave 3)
     if ind(i)>255 && ind(i)<265
         n(i)=1;
